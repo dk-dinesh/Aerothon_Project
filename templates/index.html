@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{%block body%}
+<h5 style="color:rgb(255, 255, 255);text-align: right;">AIRBUS Aerothon Finale</h5>
+
+<head>
+    <style>
+  *{
+      margin: 0;
+      padding: 0;
+  }
+    
+ .text-box{
+      font-size: 70px;
+      font-family: sans-serif;
+      position: absolute;
+      top:40%;
+      left: 40%;
+      transform: translate(-50%,-50%);
+  }
+  span{
+      animation: mover 3s linear infinite;
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+  }
+  @keyframes mover
+  {
+      0%{
+          text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+        }
+      50%{
+          text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+          transform: translateY(30px);
+        }
+      100%
+        {
+          text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+        }
+  }
+  span:nth-child(1)
+  {
+      animation-delay: 0.5s;
+  }
+  span:nth-child(2)
+  {
+      animation-delay: 1s;
+  }
+  span:nth-child(3)
+  {
+      animation-delay: 1.5s;
+  }
+  span:nth-child(4)
+  {
+      animation-delay: 2s;
+  }
+  span:nth-child(5)
+  {
+      animation-delay: 2.5s;
+  }
+  span:nth-child(6)
+  {
+      animation-delay: 3s;
+  }
+  span:nth-child(7)
+  {
+      animation-delay: 3.5s;
+  }
+  
+  div{
+    text-align: left;
+  }
+  .bg{
+    background-color: rgb(1, 0, 2);
+}
+  </style>
+  </head>
+  <html>
+  <head>  
+  <title>Aerothon</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-image: url('https://img.freepik.com/free-vector/5g-networking-technology-background-with-blue-digital-line_53876-119505.jpg?w=740&t=st=1653692231~exp=1653692831~hmac=16bfeff3ee050db57baa29f0f4dbc999571645a11853c45ad05ab2faad7b007a');background-repeat: no-repeat;background-size: cover;">
+      
+      
+      <div class="text-box">
+      <span>One</span>
+      <span>click &nbsp &nbsp &nbsp &nbsp</span>
+      <span>Template</span>
+      <span>Generator Tool</span>
+      </div>
+  </body>
+  </html>
+{%endblock body%}

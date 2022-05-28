@@ -1,0 +1,4 @@
+Django==3.2.8
+django-filter==21.1
+Flask==2.0.2
+Flask-Cors==3.0.10
