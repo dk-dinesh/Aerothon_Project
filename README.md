@@ -33,5 +33,14 @@ cd..
 cd frontend_react
 npm start       ==> This will start the react server, and above message will be shown in browser
 ```
+## In case of error
+Sometimes all the files are not downloaded correctly. So, react application will not start.
+To resolve this issue delete node_modules folder and run :
+```
+npm install
+npm start
+```
+This will again download the node_modules and react application will start running.
+
 ## Our Team
 ![Screenshot from 2022-05-28 09-42-54](https://user-images.githubusercontent.com/55187704/170809459-b93c5a93-12fb-47fc-a789-faaa3d8c23be.png)
